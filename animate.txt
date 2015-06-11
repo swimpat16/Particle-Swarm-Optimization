@@ -1,0 +1,9 @@
+mogrify -format gif *.pbm
+convert -delay 20 -loop 0 frame*.gif swarm.gif
+
+
+// configurations
+./lab6 100 40 .5 2 1.75 1 2.5 IMG > out1.csv //standard behavior of converging simulation
+./lab6 100 40 .2 2.75 3.75 1 10 IMG > out2.csv //doesn't converge
+./lab6 100 40 .95 .5 1.75 1 7 IMG > out3.csv //doesn't converge, high inertia
+./lab6 100 100 .1 2 1.25 1 7 IMG > out4.csv //fast convergance

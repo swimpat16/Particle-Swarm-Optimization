@@ -1,0 +1,9 @@
+Description:
+	Particle Swarm Optimization simulator written in C++ by Patrick Elam and Alex Chaloux. 
+Files:
+	animate.txt: Contains the commands used to create animated .gifs if the simulator was set to output .png images of its state. Also contains the configurations used in the report.
+	gen_config.cc: Script used to generate the configuration files fed into the simulator.
+	lab6.cc: The simulator, written in C++
+	run.cc: Script used to run the simulator with all of the desired configurations and handle output files.
+Usage:
+	lab6 NUM_EPOCHS NUM_PARTICLES INERTIA COGNITION SOCIAL PROB_NUM MAX_VELOCITY [IMG]
